@@ -1,0 +1,233 @@
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Josefin+Sans:ital@1&family=Kanit:wght@300;500&family=Poppins&family=Roboto:wght@400;500&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            /* font-family: 'Roboto', sans-serif; */
+            overflow-x: hidden;
+            background-color: black;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        .container {
+            width: 600px;
+            height: 500px;
+            background-color: white;
+            margin-top: 110px;
+            margin-left: 30%;
+            border-radius: 8px;
+        }
+        
+        .container h1 {
+            text-align: center;
+            padding-top: 80px;
+            font-size: bold;
+        }
+        
+        #input1 {
+            margin-left: 107px;
+            width: 200px;
+            padding: 15px 6px 15px 14px;
+            margin-top: 20px;
+            border: none;
+            border-bottom: 2px solid black;
+            background-color: transparent;
+        }
+        
+        #input2 {
+            padding: 15px;
+            border: none;
+            border-bottom: 2px solid black;
+            background-color: transparent;
+            margin-left: 20px;
+        }
+        
+        #output {
+            margin-left: 107px;
+            width: 349px;
+            padding: 10px 0px 10px 10px;
+            margin-top: 25px;
+            border: none;
+            border-bottom: 2px solid black;
+            background-color: transparent;
+        }
+        
+        button {
+            cursor: pointer;
+            margin-top: 65px;
+            padding: 17px 165px 17px 153px;
+            margin-left: 107px;
+            border-radius: 5px;
+            border: 2px solid black;
+            font-size: 14px;
+            background-color: transparent;
+        }
+        
+        @media only screen and (max-width:1024px) {
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+                width: 100%;
+            }
+            html {
+                overflow-x: hidden;
+            }
+            .container {
+                margin-left: 20%;
+                margin-top: 137px;
+            }
+        }
+        
+        @media only screen and (max-width:768px) {
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+                width: 100%;
+            }
+            html {
+                overflow-x: hidden;
+            }
+            .container {
+                width: 548px;
+                height: 459px;
+                margin-left: 14%;
+                margin-top: 61px;
+                margin-bottom: 50px;
+            }
+            .container h1 {
+                padding-top: 63px;
+            }
+            #input1 {
+                margin-left: 91px;
+            }
+            #output {
+                margin-left: 91px;
+            }
+            button {
+                margin-left: 91px;
+            }
+        }
+        
+        @media only screen and (max-width:640px) {
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+                width: 100%;
+            }
+            html {
+                overflow-x: hidden;
+            }
+            .container {
+                margin-left: 7%;
+            }
+        }
+        
+        @media only screen and (max-width:480px) {
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+                width: 100%;
+            }
+            html {
+                overflow-x: hidden;
+            }
+            .container {
+                width: 427px;
+                height: 439px;
+                margin-left: 6%;
+                margin-bottom: 57px;
+                margin-top: 77px;
+            }
+            .container h1 {
+                padding-top: 39px;
+                font-size: 22px;
+            }
+            #input1 {
+                width: 234px;
+                margin-left: 81px;
+            }
+            #input2 {
+                margin-left: 82px;
+                margin-top: 19px;
+                padding: 15px 6px 15px 6px;
+            }
+            #output {
+                width: 244px;
+                margin-left: 81px;
+                padding: 15px 6px 15px 6px;
+            }
+            button {
+                cursor: pointer;
+                margin-top: 50px;
+                padding: 12px 102px 12px 102px;
+                margin-left: 81px;
+            }
+        }
+        
+        @media only screen and (max-width:360px) {
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+                width: 100%;
+            }
+            html {
+                overflow-x: hidden;
+            }
+            .container {
+                width: 319px;
+                height: 439px;
+                margin-bottom: 57px;
+                margin-top: 70px;
+            }
+            #input1 {
+                margin-left: 33px;
+            }
+            #input2 {
+                margin-left: 33px;
+            }
+            #output {
+                margin-left: 33px;
+            }
+            button {
+                margin-left: 33px;
+            }
+        }
+        
+        @media only screen and (max-width:320px) {
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+                width: 100%;
+            }
+            html {
+                overflow-x: hidden;
+            }
+            .container {
+                width: 289px;
+                margin-left: 5%;
+            }
+            .container h1 {
+                font-size: 19px;
+            }
+            #input1 {
+                margin-left: 40px;
+                width: 185px;
+            }
+            #input2 {
+                margin-left: 40px;
+                width: 185px;
+            }
+            #output {
+                margin-left: 40px;
+                width: 185px;
+            }
+            button {
+                padding: 12px 75px 12px 75px;
+                margin-left: 40px;
+            }
+        }
